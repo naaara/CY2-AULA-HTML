@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, purple, pink);
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 300px;
+    border-radius: 15px;
+
+    transition: 0.5s;
+}
+
+.card img:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+button {
+    background: purple;
+    color: white;
+
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: pink;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanhos iguais */
+  gap: 16px;                            /* Espaçamento entre os itens */
+}

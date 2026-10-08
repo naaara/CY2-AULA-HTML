@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  color: darkgreen;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.teste-botao:hover {
+  background-color: bisque;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.agrupamento{
+    border-color: blue;
+}
+
+.lado-a-lado {
+  display: flex;
+  text-align: right;
+}
+
+.imagem-lado{
+    width: 300px;
+    height: 350px;
+}
+
+.imagem-lado:hover {
+  box-shadow: 0 10px 15px rgba(74, 31, 194, 0.2);
+  border-radius: 50px;
+}
