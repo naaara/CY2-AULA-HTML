@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+section {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.destaque-inline {
+    background-color: #ffeb3b;
+    padding: 2px 5px; /* Inline aceita padding lateral, mas altera o fluxo vertical com cautela */
+}
+
+.caixa-inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    line-height: 60px; /* Centraliza o texto verticalmente */
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.caixa-invisivel {
+    display: none;
+    background-color: #e91e63;
+    color: white;
+    padding: 10px;
+}
